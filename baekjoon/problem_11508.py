@@ -11,7 +11,6 @@ def getMinPrice(N, price):
 
     return total
 
-
 N = int(input())
 price = [ int(input()) for _ in range(N) ]
 
