@@ -37,5 +37,4 @@ for i in board:
             res += '.'
             cnt = 0
 
-    
 print(res)
