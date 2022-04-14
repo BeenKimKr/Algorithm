@@ -5,7 +5,7 @@ d = int(input())
 
 for _ in range(d):
     n, m = map(int, sys.stdin.readline().split())
-    queue = deque(list(map(int, sys.stdin.readline().strip().split())))
+    queue = deque(list(map(int, sys.stdin.readline().split())))
     target = queue[m]
     cnt = 1
 
