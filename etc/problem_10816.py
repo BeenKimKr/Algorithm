@@ -5,7 +5,6 @@ lst_m = input().split()
 res_dict = dict()
 res_str = ''
 
-
 for i in lst_n:
     if i in res_dict.keys():
         res_dict[i] += 1
