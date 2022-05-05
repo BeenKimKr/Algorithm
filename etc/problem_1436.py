@@ -1,6 +1,7 @@
 N = int(input())
 cnt = 1
 i = 666
+
 while N != cnt:
     i += 1
     six = 0
