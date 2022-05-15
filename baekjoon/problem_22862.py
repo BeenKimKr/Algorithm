@@ -12,13 +12,14 @@ while True:
         even_cnt += 1
 
     right += 1
+
     # 끝에 도달
     if right == N:
         result = max(result, even_cnt)
         break
 
     # 홀수가 K보다 커질 경우 부분 수열엔 K개의 홀수가 존재하므로 결과에 저장
-    # left 이동 후 이전 위치의 수를 even_cnt에 반영할지 판별
+    # left 이동 후 이전 위치의 수를 cnt에 반영
     if odd_cnt > K:
         result = max(result, even_cnt)
         left += 1
