@@ -16,7 +16,7 @@ visited = []  # 감염여부 확인된 컴퓨터들
 
 while stack:
     k = stack.pop(-1)
-    # 확인된 컴퓨터는 pass
+    # 확인된 컴퓨터는 pass(아래 조건문으로 불필요한 확인x)
     if k in visited:
         continue
     visited.append(k)
